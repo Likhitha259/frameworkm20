@@ -130,3 +130,6 @@ class LoginPage(BasePage):
         self.send_keys(self.email_cred,'athulmr249@gmail.com')
         self.send_keys(self.password_cred,'Athul@mr2')
         self.click(self.log_in_btn)
+
+        
+        print('hei hello')
