@@ -1,0 +1,10 @@
+class BasePage:
+    def __init__(self,driver):
+        self.driver=driver
+    def send_keys(self,locator,text):
+        ele1=self.driver.find_element(*locator)  #*locator--unpacking the locator and locator value
+        ele1.clear()
+        ele1.send_keys(text)
+    def click(self,locator):
+        ele2=self.driver.find_element(*locator)
+        ele2.click()
