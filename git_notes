@@ -1,0 +1,70 @@
+
+advandage:
+>history of the code
+>collobaration of developers
+>prevents code conflicts and overwriting
+>backup of the project history
+
+git : is the distributed version control tool,it will track all the changes we have made in the
+code
+>install localy
+>works offline
+
+git hub:
+>cloud repository
+>require internet
+>share code between the user[collabaration]
+>PR[pull request,project management]
+
+
+
+working area
+---git add
+staging area
+---git commit
+local repository
+---git push
+remote repository
+
+commands:
+git  --version
+git config --global user.name"username"
+git config --global user.email"email"
+git  congif --list
+
+git init [git initializing]
+git add file.ext/folder  [satging area]
+git add fil1.ext file2.ext file3.ext
+git add .[not recommendable]
+git status
+git commit -m "message"
+git log
+git log --oneline
+
+branching
+git branch barnch_name
+git switch branch_name
+git switch -c branch_name
+git branch
+git merge branch_name
+
+
+
+git remote add origin "url"
+git push -u origin master
+
+work flow:
+
+git clone "url"
+git branch
+venv--->requeriments
+git add
+git commit -m""
+git push
+git pull origin master/main
+
+#########################
+git stash
+git restore
+git reset
+git revert
